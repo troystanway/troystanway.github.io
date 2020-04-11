@@ -4,7 +4,7 @@
         
 		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
 
-		<title>Troy Stanway - Troy Stanway - Blog</title>
+		<title>Troy Stanway - Code snippets in a blog post</title>
         <meta name="description" content="Accomplishing the impossible everyday. A technological whiz is constantly up to date the latest news, trends and techniques.">
         <meta name="author" content="Troy Stanway">
 
@@ -39,7 +39,27 @@
 
 	 <body>
 		<div class="top-decorations"></div>
-        <nav id="nav">
+ 
+		<!-- Start: Intro -->
+		<section id="intro" class="fx-backstretch">
+			<div class="info">
+				<div class="container">
+                <img class="avatar" src="https://troystanway.com.au/assets/img/avatar.png" alt="Troy R Stanway">
+					<div class="row">
+						<div class="col-full"><h1>Troy <span class="cool">R</span> Stanway</h1></div>
+					</div>
+					<div class="row"><div class="col-1-4 centered line"></div></div>
+					<div class="row">
+                    <div class="col-full"><h4><strong>Visionary <span class="cool"></span> Entrepreneur</strong></h4></div>
+					</div>
+					<div class="row"><div class="col-1-4 centered line"></div></div>
+					<div class="row">
+						<div class="col-full"><h4>Accomplishing <span class="cool">the</span>  impossible everyday</h4></div>
+					</div>
+				</div>
+			</div>
+
+			<nav id="nav">
 				<!-- The content between <span> </span> tags will be hidden on mobile version -->
 				<ul class="clearfix">
 					<li><a href="#profile">Prof<span>ile</span></a></li>
@@ -53,49 +73,42 @@
 		</section>
 		<!-- End: Intro -->
 
-		<section>
+		<section id="blog">
   <div class="container">
-    <div class="row">
-      <div class="text-center">
-        <ul style="list-style-position: inside">
-           
-             <li>
-               <a href="/html/code/2019/12/11/pullquotes.html">Pullquotes</a>
-               - 11 December 2019
-             </li>
-           
-             <li>
-               <a href="/html/code/2019/08/12/code-snippets.html">Code snippets in a blog post</a>
-               - 12 August 2019
-             </li>
-           
-             <li>
-               <a href="/miscellaneous/2019/08/08/no-title-posts.html"></a>
-               - 08 August 2019
-             </li>
-           
-             <li>
-               <a href="/miscellaneous/2019/07/28/super-short-article.html">Some articles are just so short that we've to make the footer stick</a>
-               - 28 July 2019
-             </li>
-           
-             <li>
-               <a href="/miscellaneous/2019/07/27/this-post-demonstrates-post-content-styles.html">This post demonstrates post content styles</a>
-               - 27 July 2019
-             </li>
-           
-             <li>
-               <a href="/2019/07/27/super-long-article.html">Some articles are just so long they deserve a really long title to see if things will break well</a>
-               - 27 July 2019
-             </li>
-           
-             <li>
-               <a href="/2019/02/13/introducing-reverie-jekyll-theme.html">Introducing Reverie - A ridiculously elegant Jekyll theme</a>
-               - 13 February 2019
-             </li>
-           
-        </ul>
-      </div>
+    <div class="col-md-6 col-md-offset-3">
+      <p>This post demonstrate the use of code snippets in the theme. The code snippets are powered by <a href="http://pygments.org/">Pygments</a> and the code theme that is been used in Reverie is called <a href="https://draculatheme.com/">Draula</a>.</p>
+
+<p>This is a raw snippet:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>hello world
+123
+This is a text snippet
+</code></pre></div></div>
+
+<p>This is a PHP snippet:</p>
+
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;?php</span>
+    <span class="k">echo</span> <span class="s1">'Hello, World!'</span><span class="p">;</span>
+<span class="cp">?&gt;</span>
+</code></pre></div></div>
+
+<p>This is a JavaScript snippet:</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">add</span> <span class="o">=</span> <span class="p">(</span><span class="nx">a</span><span class="p">,</span> <span class="nx">b</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">a</span> <span class="o">+</span> <span class="nx">b</span>
+<span class="kd">const</span> <span class="nx">minus</span> <span class="o">=</span> <span class="p">(</span><span class="nx">a</span><span class="p">,</span> <span class="nx">b</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">a</span> <span class="o">-</span> <span class="nx">b</span>
+
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">add</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span><span class="mi">200</span><span class="p">))</span>  <span class="c1">// 300</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">minus</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span><span class="mi">200</span><span class="p">))</span>  <span class="c1">// -100</span>
+</code></pre></div></div>
+
+<p>This is a Python snippet:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">say_hello</span><span class="p">():</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">"hello world!"</span><span class="p">)</span>
+
+<span class="n">say_hello</span><span class="p">()</span>   <span class="o">//</span> <span class="s">"hello world!"</span>
+</code></pre></div></div>
+
     </div>
   </div>
 </section>
