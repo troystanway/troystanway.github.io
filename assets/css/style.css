@@ -250,6 +250,15 @@ input.error, textarea.error {
     background: black;
 }
 
+#navf {
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	position: absolute;
+	margin: 0 auto;
+    background: black;
+}
+
 #nav-sticky-wrapper.is-sticky #nav {
 	background-color: #194d9b;
 }
