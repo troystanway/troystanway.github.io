@@ -1,0 +1,99 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//iOS 8.4.1//EN
+N:;Apple Retail Support;;;
+FN:Apple Retail Support
+TEL;type=CELL;type=VOICE;type=pref:1800 423 908
+REV:2016-02-01T07:22:03Z
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//iOS 8.1.2//EN
+N:CID;Virgin;;;
+FN:Virgin CID
+TEL;type=CELL;type=VOICE;type=pref:1300662000
+REV:2015-08-17T02:52:40Z
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//iOS 10.2.1//EN
+N:;Latitude Finance;;;
+FN:Latitude Finance
+TEL;type=CELL;type=VOICE;type=pref:1300361921
+item1.TEL:1800 757 437
+item1.X-ABLabel:ID FAX
+REV:2017-04-11T00:01:15Z
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//iOS 8.1.2//EN
+N:;Microsoft Office Support;;;
+FN:Microsoft Office Support
+TEL;type=CELL;type=VOICE;type=pref:132058
+REV:2015-08-17T02:52:40Z
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//iOS 10.2.1//EN
+N:;Optus;;;
+FN:Optus
+item1.TEL;type=pref:1800 676 120
+item1.X-ABLabel:Dealer support
+item2.TEL:133 937
+item2.X-ABLabel:Customer support
+item3.TEL:1800 505 050
+item3.X-ABLabel:Optus password reset
+item4.TEL:0434 223 821
+item4.X-ABLabel:Carrier representative
+item5.TEL:1800 505 727
+item5.X-ABLabel:Credit Assessment Team (CAT)
+NOTE:Dealer Code\nSOSAS019\nDE1005116
+REV:2017-04-11T00:07:22Z
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//iOS 8.1.2//EN
+N:;Police;;;
+FN:Police
+TEL;type=CELL;type=VOICE;type=pref:131444
+REV:2015-08-17T02:52:40Z
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//iOS 10.2.1//EN
+N:;Telstra;;;
+FN:Telstra
+item1.EMAIL;type=INTERNET;type=pref:http://www.retaillive.com.au
+item1.X-ABLabel:Telstra Retail Live
+item2.TEL;type=pref:1800 808 874
+item2.X-ABLabel:Dealer support
+item3.TEL:125 111
+item3.X-ABLabel:Customer support
+item4.TEL:1800 150 248
+item4.X-ABLabel:PAC
+NOTE:Dealer Code\nEDHR
+REV:2017-04-11T00:07:31Z
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//iOS 10.2.1//EN
+N:;Vodafone;;;
+FN:Vodafone
+item1.EMAIL;type=INTERNET;type=pref:darren.coombes@vodafone.com.au
+item1.X-ABLabel:Vodafone Rep
+item2.EMAIL;type=INTERNET:vcredit@vodafone.com.au
+item2.X-ABLabel:Credit check support
+item3.TEL;type=pref:133 370
+item3.X-ABLabel:Dealer support
+item4.TEL:1300 650 410
+item4.X-ABLabel:Customer support
+item5.TEL:1300 860 293
+item5.X-ABLabel:Password reset
+item6.TEL:0451 980 293
+item6.X-ABLabel:Carrier representative
+NOTE:Dealer Code\nIP0021\nLive Chat support: www.vodafone.com.au/retailchat (Incompatible with Safari)
+item7.X-ABRELATEDNAMES;type=pref:In Red Ipad Cover On Printer Or BOH activa
+ tions Dock
+item7.X-ABLabel:Token location
+REV:2017-04-11T00:07:42Z
+END:VCARD
